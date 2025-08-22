@@ -70,6 +70,12 @@
       color: #fff;
       cursor: pointer;
     }
+/* Mobile Logo */
+@media (max-width: 768px) {
+  .logo img {
+    height: 45px;     /* Smaller logo on mobile */
+  }
+}
 
     @media (max-width: 768px) {
       .nav-center {
@@ -156,4 +162,5 @@
       background: #1e3a8a;
       color: white;
       margin-top: 3rem;
+
     }
