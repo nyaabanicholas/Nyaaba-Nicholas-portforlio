@@ -25,6 +25,7 @@
   height: 70px;       /* Adjust the logo height */
   width: auto;        /* Keep aspect ratio */
   display: block;     /* Prevent unwanted spacing */
+  border-radius: 8px; /* Rounds all corners by 8 pixels */
 }
 
 .logo {
@@ -165,4 +166,5 @@
       margin-top: 3rem;
 
     }
+
 
