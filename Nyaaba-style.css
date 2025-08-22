@@ -74,6 +74,7 @@
 @media (max-width: 768px) {
   .logo img {
     height: 45px;     /* Smaller logo on mobile */
+    border-radius: 8px; /* Rounds all corners by 8 pixels */
   }
 }
 
@@ -164,3 +165,4 @@
       margin-top: 3rem;
 
     }
+
