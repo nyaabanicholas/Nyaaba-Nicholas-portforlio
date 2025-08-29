@@ -168,14 +168,24 @@
 <section id="contact" tabindex="-1">
   <h2>Contact Me</h2>
   <form action="https://formsubmit.co/el/nusilo" method="POST" style="max-width: 600px; margin: auto;">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" placeholder="Your name" required />
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="email@domain.com" required />
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" placeholder="Type your message" required rows="5"></textarea>
-    <button type="submit">Send Message</button>
-  </form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="Your name" required />
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="email@domain.com" required />
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" placeholder="Type your message" required rows="5"></textarea>
+
+  <!-- Hidden settings -->
+  <input type="hidden" name="_next" value="https://nyaaba-nicholas-portforlio.vercel.app/thank-you.html">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_autoresponse" value="Thanks for reaching out! I’ll get back to you shortly.">
+
+  <button type="submit">Send Message</button>
+</form>
+
   <p class="contact-info" style="margin-top: 1.5rem;">
     Email: <a href="mailto:nadonyabnick@gmail.com">nadonyabnick@gmail.com</a> | 
     Phone: <a href="tel:+233242359492">+233-242-9492</a> | 
@@ -218,6 +228,7 @@
 
 </body>
 </html>
+
 
 
 
