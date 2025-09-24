@@ -24,8 +24,20 @@
 <meta name="twitter:title" content="Nyaaba Nicholas | Portfolio" />
 <meta name=" twitter: description" content=" Explore the portfolio of Nyaaba Nicholas — Web Developer, SEO Specialist, and Content Marketer." />
 <meta name="twitter:image" content="https://nyaaba-nicholas-portforlio.vercel.app/Nyaaba-Nichols-logo%202%20(1).webp" />
-<link rel="preload" href="Nyaaba-style.css" as="style" onload="this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="Nyaaba-style.css"></noscript>
+
+  <style>
+    /* Critical CSS: only nav + hero basic styles */
+    body { margin:0; font-family:Arial, sans-serif; }
+    nav { display:flex; justify-content:space-between; align-items:center; padding:10px 20px; background:#fff; }
+    nav a { text-decoration:none; margin:0 10px; color:#333; font-weight:bold; }
+    .hero { padding:50px; text-align:center; }
+  </style>
+
+  <!-- Load full CSS asynchronously -->
+  <link rel="preload" href="Nyaaba-style.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="Nyaaba-style.css"></noscript>
+
+
 
   <script type="application/ld+json">
 {
@@ -224,6 +236,7 @@
 
 </body>
 </html>
+
 
 
 
